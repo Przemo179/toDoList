@@ -1,10 +1,11 @@
 body {
-  background-color: darkslategray;
+  background-color: #2db3ff;
   color: beige;
+  margin: 5px;
 }
 
 .taskBg {
-  background-color: #555;
+  background-color: #0075b8;
   border-radius: 6px;
   margin-bottom: 20px;
   padding: 10px 140px 10px 15px;
@@ -19,8 +20,8 @@ body {
 }
 
 .taskNum  {
-  color: #999;
-  border: 1px solid #999;
+  color: beige;
+  border: 1px solid beige;
   border-radius: 50%;
   width: 26px;
   height: 26px;
@@ -33,6 +34,7 @@ body {
 }
 
 .taskBg .taskText {
+  width: auto;
   flex: 1;
 }
 .taskBg .finished .taskText {
@@ -56,14 +58,14 @@ body {
   display: inline-block;
   margin: 0 10px 10px;
   cursor: pointer;
-  color: #00ff89;
+  color: lightgreen;
 }
 
 .taskBg .iconsWrap span:hover {
   display: inline-block;
   margin: 0 10px 10px;
   cursor: pointer;
-  color: yellow;
+  color: #8f8b00;
 }
 
 .margin-20  {
